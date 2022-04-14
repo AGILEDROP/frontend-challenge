@@ -3,7 +3,7 @@ type: theme
 base theme: classy
 description: 'Theme for Agiledrop Front-end challenge, which is used by developer.'
 version: 1.0
-core: 8.x
+core_version_requirement: ^8 || ^9
 libraries:
  - adchallenge/global-styling
 
