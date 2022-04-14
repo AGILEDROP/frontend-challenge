@@ -1,75 +1,31 @@
-<img alt="Drupal Logo" src="https://www.drupal.org/files/Wordmark_blue_RGB.png" height="60px">
-
-Drupal is an open source content management platform supporting a variety of
-websites ranging from personal weblogs to large community-driven websites. For
-more information, visit the Drupal website, [Drupal.org][Drupal.org], and join
-the [Drupal community][Drupal community].
-
-## Contributing
-
-Drupal is developed on [Drupal.org][Drupal.org], the home of the international
-Drupal community since 2001!
-
-[Drupal.org][Drupal.org] hosts Drupal's [GitLab repository][GitLab repository],
-its [issue queue][issue queue], and its [documentation][documentation]. Before
-you start working on code, be sure to search the [issue queue][issue queue] and
-create an issue if your aren't able to find an existing issue.
-
-Every issue on Drupal.org automatically creates a new community-accessible fork
-that you can contribute to. Learn more about the code contribution process on
-the [Issue forks & merge requests page][issue forks].
-
-## Usage
-
-For a brief introduction, see [USAGE.txt](/core/USAGE.txt). You can also find
-guides, API references, and more by visiting Drupal's [documentation
-page][documentation].
-
-You can quickly extend Drupal's core feature set by installing any of its
-[thousands of free and open source modules][modules]. With Drupal and its
-module ecosystem, you can often build most or all of what your project needs
-before writing a single line of code.
-
-## Changelog
-
-Drupal keeps detailed [change records][changelog]. You can search Drupal's
-changes for a record of every notable breaking change and new feature since
-2011.
-
-## Security
-
-For a list of security announcements, see the [Security advisories
-page][Security advisories] (available as [an RSS feed][security RSS]). This
-page also describes how to subscribe to these announcements via email.
-
-For information about the Drupal security process, or to find out how to report
-a potential security issue to the Drupal security team, see the [Security team
-page][security team].
-
-## Need a helping hand?
-
-Visit the [Support page][support] or browse [over a thousand Drupal
-providers][service providers] offering design, strategy, development, and
-hosting services.
-
-## Legal matters
-
-Know your rights when using Drupal by reading Drupal core's
-[license](/core/LICENSE.txt).
-
-Learn about the [Drupal trademark and logo policy here][trademark].
-
-[Drupal.org]: https://www.drupal.org
-[Drupal community]: https://www.drupal.org/community
-[GitLab repository]: https://git.drupalcode.org/project/drupal
-[issue queue]: https://www.drupal.org/project/issues/drupal
-[issue forks]: https://www.drupal.org/drupalorg/docs/gitlab-integration/issue-forks-merge-requests
-[documentation]: https://www.drupal.org/documentation
-[changelog]: https://www.drupal.org/list-changes/drupal
-[modules]: https://www.drupal.org/project/project_module
-[security advisories]: https://www.drupal.org/security
-[security RSS]: https://www.drupal.org/security/rss.xml
-[security team]: https://www.drupal.org/drupal-security-team
-[service providers]: https://www.drupal.org/drupal-services
-[support]: https://www.drupal.org/support
-[trademark]: https://www.drupal.com/trademark
+<h1>Agiledrop Front-end Challenge</h1>
+<p>If you want to be considered as a candidate for front-end developer at Agiledrop, you will have to complete the following tasks.</p>
+<h2>Prerequisites</h2>
+<ul>
+<li>Since all our front-end developers work locally, you will have to be able to install Drupal site on your computer. You can use MAMP (OS X), WAMP (Windows) or any other tool that you're used to.</li>
+<li>You must have a basic knowledge of GIT.</li>
+<li>We probably don't have to tell you that you must know CSS and Javascript.</li>
+</ul>
+<h2>Task</h2>
+<p>Your first task is to set the page locally:
+<ul>
+<li>Clone the code to your computer.</li>
+<li>Install database which is in root folder of the repository to your machine. You can use Phpmyadmin or any other tool you use, to do that.</li>
+<li>Copy the file sites/default/example.settings.local.php to sites/default/settings.local.php. Update the file with the information for your database. Read the comment at the top of that file if you need better instructions.</li>
+</ul>
+<p>If you did everything right in previous steps the page should be opening on your localhost.</p>
+<p>Now it's time to begin the real work. Below are the tasks that you should accomplish. The basic theme (called adchallenge) is already there and is enabled on the page. If you are not familiar with creating themes in Drupal, then you should check <a href="https://www.drupal.org/docs/8/theming-drupal-8/drupal-8-theme-folder-structure" target="_blank">this</a> page first. It will help you understand what goes where.</p>
+<p>We would like you to use Sass for styling. It doesn't matter how you compile it to CSS, as long as we have Sass files as an end result as well.</p>
+<p>Oh, and the last thing - the username and password for the Drupal account is admin/admin, you can login by going to /user.</p>
+<ol>
+<li>Style the front page using <a href="https://www.figma.com/file/a2EQ6MZSupAXoKFij5jt8i/Agiledrop-FE-Challenge?node-id=0%3A1" target="_blank">this design</a>. You don’t have to be logged in into Figma account, but we recommend that you create a free account. When you are logged in, you can use css inspector to get accurate elements properties.</li>
+<li>The content might not be completely the same as in design. Don't mind about it, use the one that is in the provided database. Just make sure it looks the same as in design.</li>
+<li>Header should be styled in a way that when you scroll down it sticks to the top of the page and is visible all of the time. Clicking on links in the main navigation should take you to the appropriate section on the homepage using “smooth scroll” animation. When the page is scrolled to this section, the correct link must be highlighted (active link).</li>
+<li>Please have in mind that web page should look OK on mobile devices.</li>
+<li>We will review web page in the latest modern browsers (Chrome, Firefox, Safari and Edge).</li>
+</ol>
+<h2>When done</h2>
+<ol>
+<li>After you're done push only the theme folder to a new repository.</li>
+<li>Send us a link to your new repository you created on your Github account. We will review your code and get back to you.</li>
+</ol>
